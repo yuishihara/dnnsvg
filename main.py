@@ -15,6 +15,7 @@ def main():
                 (400, 200), height=100, width=50, dashed=True, fill=(255, 0, 0)),
             svg_snippets.rectangular(
                 (200, 200), height=150, width=100, depth=10),
+            svg_snippets.arrow((100, 100), (150, 150)),
             svg_snippets.rectangular((300, 200), height=150, width=100, depth=10, mirror=True)]
     svg_string = ''.join(svg for svg in svgs)
 

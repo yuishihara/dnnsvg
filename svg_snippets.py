@@ -1,4 +1,5 @@
 import math
+import uuid
 
 
 def header(height, width, x=0, y=0):
@@ -21,6 +22,18 @@ def line(point1, point2, stroke_width=1, dashed=False, color=(0, 0, 0)):
     return '<line x1="{}" y1="{}" x2="{}" y2="{}" '\
         'stroke-width="{}" stroke-dasharray="{}" stroke="rgb{}"/>\n'.format(
             x1, y1, x2, y2, stroke_width, dash_array, color)
+
+
+def arrow(point1, point2, stroke_width=1, dashed=False, color=(0, 0, 0), arrow_on_end=True, arrow_on_start=False):
+    x1, y1 = point1
+    x2, y2 = point2
+    id = uuid.uuid1()
+    dash_array = 5 if dashed else None
+    return '<marker id="{}" viewBox="-5 -5 10 10" orient="auto">'.format(id) + \
+        '<polygon points="-5,-5 5,0 -5,5" fill="rgb{}" stroke="color{}" />'.format(color, color) + \
+        '</marker>' + \
+        '<line x1="{}" y1="{}" x2="{}" y2="{}"  stroke-width="{}" stroke-dasharray="{}" stroke="rgb{}" marker-end="url(#{})"/>'.format(
+            x1, y1, x2, y2, stroke_width, dash_array, color, id)
 
 
 def rectangle(point, height, width, stroke_width=1, dashed=False, color=(0, 0, 0), fill=None):
