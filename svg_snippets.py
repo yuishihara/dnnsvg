@@ -44,9 +44,9 @@ def rectangle(point, height, width, stroke_width=1, dashed=False, color=(0, 0, 0
         .format(x, y, width, height, stroke_width, dash_array, color, fill_color)
 
 
-def rectangular(point, height, width, depth, color=(0, 0, 0), mirror=False):
+def rectangular(point, height, width, depth, angle, color=(0, 0, 0), mirror=False):
     x, y = point
-    angle = math.pi / 3.0 if mirror else 2.0 * math.pi / 3.0
+    angle = math.pi - angle if mirror else angle
     vertices = [(x, y),
                 (x+depth, y),
                 (x, y+height),

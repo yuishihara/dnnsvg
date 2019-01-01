@@ -1,22 +1,31 @@
 import svg_snippets
+from convolution_2d import Convolution2D
+from deconvolution_2d import Deconvolution2D
 
 
 def main():
-    width = 640
+    width = 1280
     height = 480
+    layers = [Convolution2D(in_channels=3, out_channels=64, ksize=6, stride=2),
+              Convolution2D(in_channels=64, out_channels=128,
+                            ksize=4, stride=2),
+              Deconvolution2D(in_channels=128, out_channels=64,
+                              ksize=4, stride=2),
+              Deconvolution2D(in_channels=64, out_channels=3, ksize=6, stride=2)]
+
     svg_header = svg_snippets.header(height=height, width=width)
     svg_footer = svg_snippets.footer()
-    svgs = [svg_snippets.line((0, 100), (100, 100)),
-            svg_snippets.line((100, 100), (100, 200), dashed=True),
-            svg_snippets.text((100, 150), 'hello world'),
-            svg_snippets.rectangle(
-                (400, 100), height=100, width=50, dashed=True),
-            svg_snippets.rectangle(
-                (400, 200), height=100, width=50, dashed=True, fill=(255, 0, 0)),
-            svg_snippets.rectangular(
-                (200, 200), height=150, width=100, depth=10),
-            svg_snippets.arrow((100, 100), (150, 150)),
-            svg_snippets.rectangular((300, 200), height=150, width=100, depth=10, mirror=True)]
+
+    point = (50, 100)
+    prev_shape = (0, 0, 0)
+    input_shape = (3, 120, 120)
+    svgs = []
+    margin = 40
+    for layer in layers:
+        point = (point[0] + prev_shape[0] + margin, point[1])
+        prev_shape = input_shape
+        next_shape = layer.draw(point, input_shape, svgs)
+        input_shape = next_shape
     svg_string = ''.join(svg for svg in svgs)
 
     filename = 'sample.svg'
