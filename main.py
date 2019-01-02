@@ -20,7 +20,7 @@ def main():
     prev_shape = (0, 0, 0)
     input_shape = (3, 120, 120)
     svgs = []
-    margin = 40
+    margin = 50
     for layer in layers:
         point = (point[0] + prev_shape[0] + margin, point[1])
         prev_shape = input_shape

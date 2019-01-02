@@ -34,7 +34,7 @@ class Convolution2D(SvgLayerDrawer):
         kernel_point = (point[0] - kernel_width * math.cos(angle) / 2.0,
                         point[1] + in_height / 2.0 - kernel_height)
         svgs.append(svg_snippets.rectangular(
-            kernel_point, height=kernel_height, width=kernel_width, depth=in_channels, angle=angle))
+            kernel_point, height=kernel_height, width=kernel_width, depth=in_channels, angle=angle, color=(0, 0, 255)))
 
         return (self.out_channels, out_height, out_width)
 
