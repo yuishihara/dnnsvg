@@ -1,9 +1,12 @@
-from svg_layer_drawer import SvgLayerDrawer
-import svg_snippets
+from layer import Layer
+from tensor_3d import Tensor3D
+from convolution_2d import Convolution2D
+from line_connector import LineConnector
+from text import Text
 import math
 
 
-class Deconvolution2D(SvgLayerDrawer):
+class Deconvolution2D(Layer):
     def __init__(self, in_channels, out_channels, ksize=None, stride=1, pad=0):
         super(Deconvolution2D, self).__init__()
         self.in_channels = in_channels
@@ -12,34 +15,113 @@ class Deconvolution2D(SvgLayerDrawer):
         self.stride = _pair(stride)
         self.pad = _pair(pad)
 
-    def draw_layer(self, point, input_shape, svgs):
-        in_channels, in_height, in_width = input_shape
+    def decorate(self, input_tensor):
+        input_shape = input_tensor.shape()
+        if len(input_shape) is not 3:
+            raise ValueError('Input must be 3D tensor!')
+        in_depth, _, _ = input_shape
         if self.in_channels is None:
-            self.in_channels = in_channels
+            self.in_channels = in_depth
+        else:
+            assert self.in_channels == in_depth
         if self.out_channels is None:
-            self.out_channels = self.in_channels
+            self.out_channels = in_depth
+
+        kernel_tensor = self._kernel_tensor(input_tensor)
+        input_tensor.decorate(kernel_tensor)
+
+        output_tensor = self._output_tensor(input_tensor)
+
+        # Connect input_tensor and output_tensor with lines by decorating input_tensor
+        connectors = self._input_output_connectors(
+            input_tensor, output_tensor, kernel_tensor)
+        for connector in connectors:
+            input_tensor.decorate(connector)
+
+        # Add layer title
+        layer_titles = self._layer_titles(input_tensor)
+        for title in layer_titles:
+            input_tensor.decorate(title)
+
+        return output_tensor
+
+    def _kernel_tensor(self, input_tensor):
+        point = input_tensor.origin()
+        # Decorate input tensor with kernel tensor (a.k.a filter)
+        kernel_depth = self.in_channels
+        kernel_height = self.k_size[0]
+        kernel_width = self.k_size[1]
+        kernel_point = point
+        kernel_color = (255, 0, 0)
+        return Tensor3D(x=kernel_point[0],
+                        y=kernel_point[1],
+                        depth=kernel_depth,
+                        height=kernel_height,
+                        width=kernel_width,
+                        color=kernel_color,
+                        print_shape=False)
+
+    def _output_tensor(self, input_tensor):
+        in_depth, in_height, in_width = input_tensor.shape()
+
+        out_depth = self.out_channels
         out_height = (in_height - 1) * \
             self.stride[0] + self.k_size[0] - 2 * self.pad[0]
         out_width = (in_width - 1) * \
             self.stride[1] + self.k_size[0] - 2 * self.pad[0]
 
-        angle = 2.0 * math.pi / 3.0
-        layer_point = (point[0] - in_width * math.cos(math.pi - angle) / 2.0,
-                       point[1] - in_height / 2.0)
-        svgs.append(svg_snippets.rectangular(
-            layer_point, height=in_height, width=in_width, depth=in_channels, angle=angle, mirror=True))
+        point = input_tensor.origin()
+        margin = in_depth - out_width * math.cos(input_tensor.angle())
+        out_point = (point[0] + margin, point[1])
 
-        kernel_height = self.k_size[0]
-        kernel_width = self.k_size[1]
-        kernel_point = (point[0] - kernel_width * math.cos(math.pi - angle) / 2.0,
-                        point[1] + in_height / 2.0 - kernel_height)
-        svgs.append(svg_snippets.rectangular(
-            kernel_point, height=kernel_height, width=kernel_width, depth=in_channels, angle=angle, mirror=True, color=(0, 0, 255)))
+        return Tensor3D(x=out_point[0],
+                        y=out_point[1],
+                        depth=out_depth,
+                        height=out_height,
+                        width=out_width)
 
-        return (self.out_channels, out_height, out_width)
+    def _input_output_connectors(self, input_tensor, output_tensor, kernel_tensor):
+        kernel_vertices = self._right_vertices(kernel_tensor.vertices())
+        output_vertices = self._left_vertices(output_tensor.vertices())
+        destination_x = (output_vertices[0][0] * 0.75
+                         + output_vertices[3][0] * 0.25)
+        destination_y = (output_vertices[0][1] * 0.75
+                         + output_vertices[3][1] * 0.25)
+        destination_point = (destination_x, destination_y)
+        kernel_color = kernel_tensor.color()
+        return [LineConnector(
+            kernel_vertices[0], destination_point, color=kernel_color, dashed=True),
+            LineConnector(
+            kernel_vertices[1], destination_point, color=kernel_color, dashed=True),
+            LineConnector(
+            kernel_vertices[2], destination_point, color=kernel_color, dashed=True),
+            LineConnector(
+            kernel_vertices[3], destination_point, color=kernel_color, dashed=True)]
 
-    def draw_title(self, point, svgs):
-        pass
+    def _layer_titles(self, input_tensor):
+        text_size = 12
+        title = 'deconv2d'
+        kernel_text = 'kernel:{}'.format(self.k_size)
+        stride_text = 'stride:{}'.format(self.stride)
+        pad_text = 'pad:{}'.format(self.pad)
+        texts = [title, kernel_text, stride_text, pad_text]
+
+        input_vertices = self._left_vertices(input_tensor.vertices())
+        base_text_point = (input_vertices[3][0], input_vertices[3][1] + 10)
+        titles = []
+        for i, text in enumerate(texts):
+            text_point = (base_text_point[0],
+                          base_text_point[1] + i * text_size)
+            titles.append(Text(text_point, text, size=text_size, anchor='left'))
+        return titles
+
+
+
+    def _left_vertices(self, vertices):
+        return [vertices[0], vertices[2], vertices[4], vertices[6]]
+
+    def _right_vertices(self, vertices):
+        return [vertices[1], vertices[3], vertices[5], vertices[7]]
 
 
 def _pair(x):
