@@ -1,10 +1,10 @@
-from layer_connector import LayerConnector
+from svgeable import SVGeable
 import svg_snippets
 
 
-class LineConnector(LayerConnector):
+class Line(SVGeable):
     def __init__(self, point1, point2, stroke_width=1, dashed=False, color=(0, 0, 0)):
-        super(LineConnector, self).__init__()
+        super(Line, self).__init__()
         self._point1 = point1
         self._point2 = point2
         self._stroke_width = stroke_width

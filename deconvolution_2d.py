@@ -1,7 +1,7 @@
 from layer import Layer
 from tensor_3d import Tensor3D
 from convolution_2d import Convolution2D
-from line_connector import LineConnector
+from line import Line
 from text import Text
 import math
 
@@ -71,8 +71,8 @@ class Deconvolution2D(Layer):
             self.stride[1] + self.k_size[0] - 2 * self.pad[0]
 
         point = input_tensor.origin()
-        margin = in_depth - out_width * math.cos(input_tensor.angle())
-        out_point = (point[0] + margin, point[1])
+        margin = self._inter_layer_margin()
+        out_point = (point[0] + in_depth + margin, point[1])
 
         return Tensor3D(x=out_point[0],
                         y=out_point[1],
@@ -81,22 +81,20 @@ class Deconvolution2D(Layer):
                         width=out_width)
 
     def _input_output_connectors(self, input_tensor, output_tensor, kernel_tensor):
-        kernel_vertices = self._right_vertices(kernel_tensor.vertices())
-        output_vertices = self._left_vertices(output_tensor.vertices())
+        kernel_vertices = self._right_vertices(kernel_tensor)
+        output_vertices = self._left_vertices(output_tensor)
         destination_x = (output_vertices[0][0] * 0.75
                          + output_vertices[3][0] * 0.25)
         destination_y = (output_vertices[0][1] * 0.75
                          + output_vertices[3][1] * 0.25)
         destination_point = (destination_x, destination_y)
         kernel_color = kernel_tensor.color()
-        return [LineConnector(
-            kernel_vertices[0], destination_point, color=kernel_color, dashed=True),
-            LineConnector(
-            kernel_vertices[1], destination_point, color=kernel_color, dashed=True),
-            LineConnector(
-            kernel_vertices[2], destination_point, color=kernel_color, dashed=True),
-            LineConnector(
-            kernel_vertices[3], destination_point, color=kernel_color, dashed=True)]
+        return [Line(kernel_vertices[0], destination_point, color=kernel_color, dashed=True),
+                Line(kernel_vertices[1], destination_point,
+                     color=kernel_color, dashed=True),
+                Line(kernel_vertices[2], destination_point,
+                     color=kernel_color, dashed=True),
+                Line(kernel_vertices[3], destination_point, color=kernel_color, dashed=True)]
 
     def _layer_titles(self, input_tensor):
         text_size = 12
@@ -106,22 +104,15 @@ class Deconvolution2D(Layer):
         pad_text = 'pad:{}'.format(self.pad)
         texts = [title, kernel_text, stride_text, pad_text]
 
-        input_vertices = self._left_vertices(input_tensor.vertices())
+        input_vertices = self._left_vertices(input_tensor)
         base_text_point = (input_vertices[3][0], input_vertices[3][1] + 10)
         titles = []
         for i, text in enumerate(texts):
             text_point = (base_text_point[0],
                           base_text_point[1] + i * text_size)
-            titles.append(Text(text_point, text, size=text_size, anchor='left'))
+            titles.append(
+                Text(text_point, text, size=text_size, anchor='left'))
         return titles
-
-
-
-    def _left_vertices(self, vertices):
-        return [vertices[0], vertices[2], vertices[4], vertices[6]]
-
-    def _right_vertices(self, vertices):
-        return [vertices[1], vertices[3], vertices[5], vertices[7]]
 
 
 def _pair(x):
