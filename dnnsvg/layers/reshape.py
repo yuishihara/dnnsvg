@@ -31,8 +31,10 @@ class Reshape(Layer):
 
     def _output_tensor(self, input_tensor):
         if isinstance(input_tensor, Tensor3D):
-            in_depth, _, _ = input_tensor.shape()
-            width = in_depth
+            left_vertices = self._left_vertices(input_tensor)
+            right_vertices = self._right_vertices(input_tensor)
+            box_width = right_vertices[0][0] - left_vertices[0][0]
+            width = box_width
             margin = self._inter_layer_margin()
         elif isinstance(input_tensor, Tensor2D):
             vertices = input_tensor.vertices()
@@ -55,7 +57,8 @@ class Reshape(Layer):
                             y=out_point[1],
                             depth=out_depth,
                             height=out_height,
-                            width=out_width)
+                            width=out_width,
+                            scale=input_tensor.scale())
         else:
             raise ValueError(
                 "Shape must be 2D or 3D! Given: {}".format(self._output_shape))

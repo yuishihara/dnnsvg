@@ -58,11 +58,12 @@ class Deconvolution2D(Layer):
                         depth=kernel_depth,
                         height=kernel_height,
                         width=kernel_width,
+                        scale=input_tensor.scale(),
                         color=kernel_color,
                         print_shape=False)
 
     def _output_tensor(self, input_tensor):
-        in_depth, in_height, in_width = input_tensor.shape()
+        _, in_height, in_width = input_tensor.shape()
 
         out_depth = self.out_channels
         out_height = (in_height - 1) * \
@@ -72,13 +73,19 @@ class Deconvolution2D(Layer):
 
         point = input_tensor.origin()
         margin = self._inter_layer_margin()
-        out_point = (point[0] + in_depth + margin, point[1])
+
+        left_vertices = self._left_vertices(input_tensor)
+        right_vertices = self._right_vertices(input_tensor)
+        box_width = right_vertices[0][0] - left_vertices[0][0]
+
+        out_point = (point[0] + box_width + margin, point[1])
 
         return Tensor3D(x=out_point[0],
                         y=out_point[1],
                         depth=out_depth,
                         height=out_height,
-                        width=out_width)
+                        width=out_width,
+                        scale=input_tensor.scale(),)
 
     def _input_output_connectors(self, input_tensor, output_tensor, kernel_tensor):
         kernel_vertices = self._right_vertices(kernel_tensor)
