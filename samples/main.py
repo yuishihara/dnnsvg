@@ -3,7 +3,7 @@ from dnnsvg.layers import Deconvolution2D
 from dnnsvg.layers import FullyConnected
 from dnnsvg.layers import FullyConnectedLSTM
 from dnnsvg.layers import Reshape
-from dnnsvg.svgeables import Tensor3D
+from dnnsvg import Tensor3D
 from dnnsvg import SVGBuilder
 
 
