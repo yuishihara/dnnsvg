@@ -1,5 +1,5 @@
-from svgeable import SVGeable
-import svg_snippets
+from dnnsvg.svgeables.svgeable import SVGeable
+from dnnsvg.svgeables import svg_snippets
 
 
 class Text(SVGeable):
@@ -13,7 +13,7 @@ class Text(SVGeable):
 
     def to_svg(self):
         return svg_snippets.text(point=self._point,
-                                 contents=self._text, 
-                                 size=self._size, 
+                                 contents=self._text,
+                                 size=self._size,
                                  color=self._color,
                                  anchor=self._anchor)

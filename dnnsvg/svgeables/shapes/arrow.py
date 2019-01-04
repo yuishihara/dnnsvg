@@ -1,6 +1,5 @@
-import svg_snippets
-from svgeable import SVGeable
-
+from dnnsvg.svgeables.svgeable import SVGeable
+from dnnsvg.svgeables import svg_snippets
 
 class Arrow(SVGeable):
     def __init__(self, point1, point2, dashed=False, stroke_width=1, color=(0, 0, 0)):

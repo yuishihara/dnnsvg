@@ -1,8 +1,9 @@
-from layer import Layer
-from tensor_2d import Tensor2D
-from tensor_3d import Tensor3D
-from text import Text
-from arrow import Arrow
+from dnnsvg.layers.layer import Layer
+from dnnsvg.svgeables import Tensor3D
+from dnnsvg.svgeables import Tensor2D
+from dnnsvg.svgeables import Text
+from dnnsvg.svgeables import Arrow
+import dnnsvg.svgeables
 
 
 class Reshape(Layer):

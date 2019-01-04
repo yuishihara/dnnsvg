@@ -1,5 +1,5 @@
-from svgeable import SVGeable
-import svg_snippets
+from dnnsvg.svgeables.svgeable import SVGeable
+from dnnsvg.svgeables import svg_snippets
 
 
 class Line(SVGeable):

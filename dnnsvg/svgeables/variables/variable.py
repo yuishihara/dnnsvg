@@ -1,9 +1,9 @@
-from svgeable import SVGeable
+from dnnsvg.svgeables.svgeable import SVGeable
 
 
-class Tensor(SVGeable):
+class Variable(SVGeable):
     def __init__(self, x, y, color):
-        super(Tensor, self).__init__()
+        super(Variable, self).__init__()
         self._x = x
         self._y = y
         self._color = color

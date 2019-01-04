@@ -1,4 +1,4 @@
-import svg_snippets
+from dnnsvg.svgeables import svg_snippets
 
 
 class SVGBuilder(object):

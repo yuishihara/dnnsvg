@@ -1,6 +1,7 @@
-from tensor_decorator import TensorDecorator
-from tensor_2d import Tensor2D
-from tensor_3d import Tensor3D
+from dnnsvg.layers.tensor_decorator import TensorDecorator
+from dnnsvg.svgeables import Tensor3D
+from dnnsvg.svgeables import Tensor2D
+import math
 
 
 class Layer(TensorDecorator):

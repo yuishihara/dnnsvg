@@ -1,11 +1,10 @@
-import svg_snippets
-from convolution_2d import Convolution2D
-from deconvolution_2d import Deconvolution2D
-from fully_connected import FullyConnected
-from fully_connected_lstm import FullyConnectedLSTM
-from reshape import Reshape
-from tensor_3d import Tensor3D
-from svg_builder import SVGBuilder
+from dnnsvg.layers import Convolution2D
+from dnnsvg.layers import Deconvolution2D
+from dnnsvg.layers import FullyConnected
+from dnnsvg.layers import FullyConnectedLSTM
+from dnnsvg.layers import Reshape
+from dnnsvg.svgeables import Tensor3D
+from dnnsvg import SVGBuilder
 
 
 def main():

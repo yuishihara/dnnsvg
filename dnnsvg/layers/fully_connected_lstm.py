@@ -1,9 +1,10 @@
-from fully_connected import FullyConnected
-from tensor_2d import Tensor2D
-from line import Line
-from text import Text
-from arrow import Arrow
-from arc_arrow import ArcArrow
+from dnnsvg.layers.layer import Layer
+from dnnsvg.layers.fully_connected import FullyConnected
+from dnnsvg.svgeables import Tensor3D
+from dnnsvg.svgeables import Line
+from dnnsvg.svgeables import Text
+from dnnsvg.svgeables import ArcArrow
+import dnnsvg.svgeables
 import math
 
 

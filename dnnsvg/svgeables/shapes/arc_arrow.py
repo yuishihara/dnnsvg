@@ -1,5 +1,5 @@
-import svg_snippets
-from svgeable import SVGeable
+from dnnsvg.svgeables.svgeable import SVGeable
+from dnnsvg.svgeables import svg_snippets
 
 
 class ArcArrow(SVGeable):

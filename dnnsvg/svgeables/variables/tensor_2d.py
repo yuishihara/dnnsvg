@@ -1,10 +1,10 @@
-from tensor import Tensor
-from svgeable import SVGeable
-from text import Text
-import svg_snippets
+from dnnsvg.svgeables.variables.variable import Variable
+from dnnsvg.svgeables.svgeable import SVGeable
+from dnnsvg.svgeables.shapes.text import Text
+from dnnsvg.svgeables import svg_snippets
 
 
-class Tensor2D(Tensor):
+class Tensor2D(Variable):
     def __init__(self, x, y, height, width, color=(0, 0, 0), print_shape=True, draw_height=100):
         super(Tensor2D, self).__init__(x, y, color)
         self._height = height

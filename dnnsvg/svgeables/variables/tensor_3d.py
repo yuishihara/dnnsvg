@@ -1,11 +1,11 @@
-from tensor import Tensor
-from svgeable import SVGeable
-from text import Text
+from dnnsvg.svgeables.variables.variable import Variable
+from dnnsvg.svgeables.svgeable import SVGeable
+from dnnsvg.svgeables.shapes.text import Text
+from dnnsvg.svgeables import svg_snippets
 import math
-import svg_snippets
 
 
-class Tensor3D(Tensor):
+class Tensor3D(Variable):
     def __init__(self, x, y, depth, height, width, color=(0, 0, 0), mirror=False, print_shape=True):
         super(Tensor3D, self).__init__(x, y, color)
         self._depth = depth
