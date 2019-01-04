@@ -3,23 +3,30 @@ from tensor_2d import Tensor2D
 from line import Line
 from text import Text
 from arrow import Arrow
+from arc_arrow import ArcArrow
 import math
+
 
 class FullyConnectedLSTM(FullyConnected):
     def __init__(self, output_shape):
-        super(FullyConnectedLSTM, self).__init__()
-        if not len(output_shape) == 2:
-            raise ValueError(
-                "Shape must be 2D! Given shape: {}".format(output_shape))
-        self._output_shape = output_shape
+        super(FullyConnectedLSTM, self).__init__(output_shape)
 
     def decorate(self, input_tensor):
         output_tensor = super(FullyConnectedLSTM, self).decorate(input_tensor)
-
+        arrow = self._recurrent_arrow(input_tensor)
+        input_tensor.decorate(arrow)
         return output_tensor
 
     def _recurrent_arrow(self, input_tensor):
-        pass
+        left_vertices = self._left_vertices(input_tensor)
+        right_vertices = self._right_vertices(input_tensor)
+        pad = 5
+        start_point = (right_vertices[0][0] + pad, right_vertices[0]
+                       [1] * 0.4 + right_vertices[1][1] * 0.6)
+        end_point = (left_vertices[0][0], left_vertices[0]
+                     [1] * 0.4 + left_vertices[1][1] * 0.6)
+        radius = 10
+        return ArcArrow(start_point, end_point, radius, stroke_width=2, large_arc=True, sweep=True)
 
     def _layer_titles(self, input_tensor):
         text_size = 12

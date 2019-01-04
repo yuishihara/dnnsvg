@@ -1,171 +1,175 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width= "1280" height="480" viewBox="0 0 1280 480">
-<line x1="79.99999999999999" y1="128.03847577293368" x2="91.99999999999999" y2="128.03847577293368" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="79.99999999999999" y1="128.03847577293368" x2="79.99999999999999" y2="248.03847577293368" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="91.99999999999999" y1="128.03847577293368" x2="91.99999999999999" y2="248.03847577293368" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="79.99999999999999" y1="248.03847577293368" x2="91.99999999999999" y2="248.03847577293368" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="79.99999999999999" y1="128.03847577293368" x2="20.000000000000014" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="91.99999999999999" y1="128.03847577293368" x2="32.000000000000014" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="20.000000000000014" y1="231.96152422706632" x2="32.000000000000014" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="20.000000000000014" y1="231.96152422706632" x2="20.000000000000014" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="32.000000000000014" y1="231.96152422706632" x2="32.000000000000014" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="20.000000000000014" y1="351.9615242270663" x2="32.000000000000014" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="79.99999999999999" y1="248.03847577293368" x2="20.000000000000014" y2="351.9615242270663" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="91.99999999999999" y1="248.03847577293368" x2="32.000000000000014" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
+<line x1="79.99999999999999" y1="128.03847577293368" x2="91.99999999999999" y2="128.03847577293368" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="79.99999999999999" y1="128.03847577293368" x2="79.99999999999999" y2="248.03847577293368" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="91.99999999999999" y1="128.03847577293368" x2="91.99999999999999" y2="248.03847577293368" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="79.99999999999999" y1="248.03847577293368" x2="91.99999999999999" y2="248.03847577293368" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="79.99999999999999" y1="128.03847577293368" x2="20.000000000000014" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="91.99999999999999" y1="128.03847577293368" x2="32.000000000000014" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="20.000000000000014" y1="231.96152422706632" x2="32.000000000000014" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="20.000000000000014" y1="231.96152422706632" x2="20.000000000000014" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="32.000000000000014" y1="231.96152422706632" x2="32.000000000000014" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="20.000000000000014" y1="351.9615242270663" x2="32.000000000000014" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="79.99999999999999" y1="248.03847577293368" x2="20.000000000000014" y2="351.9615242270663" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="91.99999999999999" y1="248.03847577293368" x2="32.000000000000014" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
 <text x="85.99999999999999" y="125.03847577293368" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">12x120x120</text>
-<line x1="51.5" y1="234.40192378864668" x2="63.5" y2="234.40192378864668" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="51.5" y1="234.40192378864668" x2="51.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="63.5" y1="234.40192378864668" x2="63.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="51.5" y1="240.40192378864668" x2="63.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="51.5" y1="234.40192378864668" x2="48.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="63.5" y1="234.40192378864668" x2="60.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="48.5" y1="239.59807621135332" x2="60.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="48.5" y1="239.59807621135332" x2="48.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="60.5" y1="239.59807621135332" x2="60.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="48.5" y1="245.59807621135332" x2="60.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="51.5" y1="240.40192378864668" x2="48.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="63.5" y1="240.40192378864668" x2="60.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="63.5" y1="234.40192378864668" x2="119.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="63.5" y1="240.40192378864668" x2="119.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="60.5" y1="239.59807621135332" x2="119.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="60.5" y1="245.59807621135332" x2="119.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
+<line x1="51.5" y1="234.40192378864668" x2="63.5" y2="234.40192378864668" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="51.5" y1="234.40192378864668" x2="51.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="63.5" y1="234.40192378864668" x2="63.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="51.5" y1="240.40192378864668" x2="63.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="51.5" y1="234.40192378864668" x2="48.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="63.5" y1="234.40192378864668" x2="60.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="48.5" y1="239.59807621135332" x2="60.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="48.5" y1="239.59807621135332" x2="48.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="60.5" y1="239.59807621135332" x2="60.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="48.5" y1="245.59807621135332" x2="60.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="51.5" y1="240.40192378864668" x2="48.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="63.5" y1="240.40192378864668" x2="60.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="63.5" y1="234.40192378864668" x2="119.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="63.5" y1="240.40192378864668" x2="119.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="60.5" y1="239.59807621135332" x2="119.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="60.5" y1="245.59807621135332" x2="119.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
 <text x="20.000000000000014" y="361.9615242270663" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">conv2d</text>
 <text x="20.000000000000014" y="373.9615242270663" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">kernel:(6, 6)</text>
 <text x="20.000000000000014" y="385.9615242270663" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">stride:(2, 2)</text>
 <text x="20.000000000000014" y="397.9615242270663" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">pad:(0, 0)</text>
-<line x1="126.5" y1="185.88526329025126" x2="190.5" y2="185.88526329025126" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="126.5" y1="185.88526329025126" x2="126.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="190.5" y1="185.88526329025126" x2="190.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="126.5" y1="243.88526329025126" x2="190.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="126.5" y1="185.88526329025126" x2="97.50000000000001" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="190.5" y1="185.88526329025126" x2="161.5" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="97.50000000000001" y1="236.1147367097487" x2="161.5" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="97.50000000000001" y1="236.1147367097487" x2="97.50000000000001" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="161.5" y1="236.1147367097487" x2="161.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="97.50000000000001" y1="294.1147367097487" x2="161.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="126.5" y1="243.88526329025126" x2="97.50000000000001" y2="294.1147367097487" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="190.5" y1="243.88526329025126" x2="161.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
+<line x1="126.5" y1="185.88526329025126" x2="190.5" y2="185.88526329025126" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="126.5" y1="185.88526329025126" x2="126.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="190.5" y1="185.88526329025126" x2="190.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="126.5" y1="243.88526329025126" x2="190.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="126.5" y1="185.88526329025126" x2="97.50000000000001" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="190.5" y1="185.88526329025126" x2="161.5" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="97.50000000000001" y1="236.1147367097487" x2="161.5" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="97.50000000000001" y1="236.1147367097487" x2="97.50000000000001" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="161.5" y1="236.1147367097487" x2="161.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="97.50000000000001" y1="294.1147367097487" x2="161.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="126.5" y1="243.88526329025126" x2="97.50000000000001" y2="294.1147367097487" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="190.5" y1="243.88526329025126" x2="161.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
 <text x="158.5" y="182.88526329025126" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">64x58x58</text>
-<line x1="113.0" y1="236.26794919243113" x2="177.0" y2="236.26794919243113" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="113.0" y1="236.26794919243113" x2="113.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="177.0" y1="236.26794919243113" x2="177.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="113.0" y1="240.26794919243113" x2="177.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="113.0" y1="236.26794919243113" x2="111.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="177.0" y1="236.26794919243113" x2="175.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="111.0" y1="239.7320508075689" x2="175.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="111.0" y1="239.7320508075689" x2="111.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="175.0" y1="239.7320508075689" x2="175.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="111.0" y1="243.7320508075689" x2="175.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="113.0" y1="240.26794919243113" x2="111.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="177.0" y1="240.26794919243113" x2="175.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"/>
-<line x1="177.0" y1="236.26794919243113" x2="229.5" y2="226.93782217350895" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="177.0" y1="240.26794919243113" x2="229.5" y2="226.93782217350895" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="175.0" y1="239.7320508075689" x2="229.5" y2="226.93782217350895" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
-<line x1="175.0" y1="243.7320508075689" x2="229.5" y2="226.93782217350895" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"/>
+<line x1="113.0" y1="236.26794919243113" x2="177.0" y2="236.26794919243113" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="113.0" y1="236.26794919243113" x2="113.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="177.0" y1="236.26794919243113" x2="177.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="113.0" y1="240.26794919243113" x2="177.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="113.0" y1="236.26794919243113" x2="111.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="177.0" y1="236.26794919243113" x2="175.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="111.0" y1="239.7320508075689" x2="175.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="111.0" y1="239.7320508075689" x2="111.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="175.0" y1="239.7320508075689" x2="175.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="111.0" y1="243.7320508075689" x2="175.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="113.0" y1="240.26794919243113" x2="111.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="177.0" y1="240.26794919243113" x2="175.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 255)"  />
+<line x1="177.0" y1="236.26794919243113" x2="229.5" y2="226.93782217350895" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="177.0" y1="240.26794919243113" x2="229.5" y2="226.93782217350895" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="175.0" y1="239.7320508075689" x2="229.5" y2="226.93782217350895" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
+<line x1="175.0" y1="243.7320508075689" x2="229.5" y2="226.93782217350895" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 255)"  />
 <text x="97.50000000000001" y="304.1147367097487" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">conv2d</text>
 <text x="97.50000000000001" y="316.1147367097487" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">kernel:(4, 4)</text>
 <text x="97.50000000000001" y="328.1147367097487" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">stride:(2, 2)</text>
 <text x="97.50000000000001" y="340.1147367097487" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">pad:(0, 0)</text>
-<line x1="233.0" y1="213.87564434701787" x2="361.0" y2="213.87564434701787" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="233.0" y1="213.87564434701787" x2="233.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="361.0" y1="213.87564434701787" x2="361.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="233.0" y1="241.87564434701787" x2="361.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="233.0" y1="213.87564434701787" x2="219.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="361.0" y1="213.87564434701787" x2="347.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="219.0" y1="238.12435565298216" x2="347.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="219.0" y1="238.12435565298216" x2="219.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="347.0" y1="238.12435565298216" x2="347.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="219.0" y1="266.12435565298216" x2="347.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="233.0" y1="241.87564434701787" x2="219.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="361.0" y1="241.87564434701787" x2="347.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
+<line x1="233.0" y1="213.87564434701787" x2="361.0" y2="213.87564434701787" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="233.0" y1="213.87564434701787" x2="233.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="361.0" y1="213.87564434701787" x2="361.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="233.0" y1="241.87564434701787" x2="361.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="233.0" y1="213.87564434701787" x2="219.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="361.0" y1="213.87564434701787" x2="347.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="219.0" y1="238.12435565298216" x2="347.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="219.0" y1="238.12435565298216" x2="219.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="347.0" y1="238.12435565298216" x2="347.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="219.0" y1="266.12435565298216" x2="347.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="233.0" y1="241.87564434701787" x2="219.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="361.0" y1="241.87564434701787" x2="347.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
 <text x="297.0" y="210.87564434701787" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">128x28x28</text>
 <text x="219.0" y="276.12435565298216" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">reshape</text>
-<marker id="b91c1a3c-0f20-11e9-b3b9-309c23045c1b" viewBox="-5 -5 10 10" orient="auto"><polygon points="-5,-5 5,0 -5,5" fill="rgb(0, 0, 0)" stroke="color(0, 0, 0)" /></marker><line x1="366.0" y1="240.0" x2="394.0" y2="240.0"  stroke-width="2" stroke-dasharray="None" stroke="rgb(0, 0, 0)" marker-end="url(#b91c1a3c-0f20-11e9-b3b9-309c23045c1b)"/><rect x="404" y="190.0" width="5" height="100" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)" fill="transparent"/><text x="406.5" y="187.0" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">100352</text>
-<text x="404" y="300.0" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">fc</text>
-<marker id="b91c1a3d-0f20-11e9-b3b9-309c23045c1b" viewBox="-5 -5 10 10" orient="auto"><polygon points="-5,-5 5,0 -5,5" fill="rgb(0, 0, 0)" stroke="color(0, 0, 0)" /></marker><line x1="414.0" y1="240.0" x2="449.0" y2="240.0"  stroke-width="2" stroke-dasharray="None" stroke="rgb(0, 0, 0)" marker-end="url(#b91c1a3d-0f20-11e9-b3b9-309c23045c1b)"/><line x1="409" y1="190.0" x2="459" y2="238.9795918367347" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="409" y1="290.0" x2="459" y2="241.0204081632653" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<rect x="459" y="238.9795918367347" width="5" height="2.0408163265306123" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)" fill="transparent"/><text x="461.5" y="235.9795918367347" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">2048</text>
+<marker id="1fa83944-b7f8-428c-9bd6-7c0050e12760" viewBox="-5 -5 10 10" orient="auto"><polygon points="-5,-5 5,0 -5,5" fill="rgb(0, 0, 0)" stroke="color(0, 0, 0)" /></marker><line x1="366.0" y1="240.0" x2="394.0" y2="240.0" stroke-width="2" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  marker-end="url(#1fa83944-b7f8-428c-9bd6-7c0050e12760)"/>
+<rect x="404" y="190.0" width="5" height="100" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)" fill="transparent"/><text x="406.5" y="187.0" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">100352</text>
+<text x="404" y="300.0" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">fc_lstm</text>
+<marker id="d42f68e1-7857-456b-b8ad-03221191da19" viewBox="-5 -5 10 10" orient="auto"><polygon points="-5,-5 5,0 -5,5" fill="rgb(0, 0, 0)" stroke="color(0, 0, 0)" /></marker><line x1="414.0" y1="240.0" x2="449.0" y2="240.0" stroke-width="2" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  marker-end="url(#d42f68e1-7857-456b-b8ad-03221191da19)"/>
+<line x1="409" y1="190.0" x2="459" y2="238.9795918367347" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="409" y1="290.0" x2="459" y2="241.0204081632653" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<marker id="9f11e5d9-db09-4443-8542-c9e70ca217f4" viewBox="-5 -5 10 10" orient="auto"><polygon points="-5,-5 5,0 -5,5" fill="rgb(0, 0, 0)" stroke="color(0, 0, 0)" /></marker><path d="M414 250.0 A 10 10 0 1 1 399 250.0" stroke-width="2" stroke-dasharray="None" stroke="rgb(0, 0, 0)" fill="transparent"  marker-end="url(#9f11e5d9-db09-4443-8542-c9e70ca217f4)"/><rect x="459" y="238.9795918367347" width="5" height="2.0408163265306123" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)" fill="transparent"/><text x="461.5" y="235.9795918367347" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">2048</text>
 <text x="459" y="251.0204081632653" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">fc</text>
-<marker id="b91c1a3e-0f20-11e9-b3b9-309c23045c1b" viewBox="-5 -5 10 10" orient="auto"><polygon points="-5,-5 5,0 -5,5" fill="rgb(0, 0, 0)" stroke="color(0, 0, 0)" /></marker><line x1="469.0" y1="240.0" x2="504.0" y2="240.0"  stroke-width="2" stroke-dasharray="None" stroke="rgb(0, 0, 0)" marker-end="url(#b91c1a3e-0f20-11e9-b3b9-309c23045c1b)"/><line x1="464" y1="238.9795918367347" x2="514" y2="190.00000000000023" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="464" y1="241.0204081632653" x2="514" y2="289.9999999999998" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
+<marker id="f5f2f24b-fe8e-41ac-bd83-16e467519ebf" viewBox="-5 -5 10 10" orient="auto"><polygon points="-5,-5 5,0 -5,5" fill="rgb(0, 0, 0)" stroke="color(0, 0, 0)" /></marker><line x1="469.0" y1="240.0" x2="504.0" y2="240.0" stroke-width="2" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  marker-end="url(#f5f2f24b-fe8e-41ac-bd83-16e467519ebf)"/>
+<line x1="464" y1="238.9795918367347" x2="514" y2="190.00000000000023" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="464" y1="241.0204081632653" x2="514" y2="289.9999999999998" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
 <rect x="514" y="190.00000000000023" width="5" height="99.99999999999955" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)" fill="transparent"/><text x="516.5" y="187.00000000000023" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">100352</text>
 <text x="514" y="299.9999999999998" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">reshape</text>
-<marker id="b91c1a3f-0f20-11e9-b3b9-309c23045c1b" viewBox="-5 -5 10 10" orient="auto"><polygon points="-5,-5 5,0 -5,5" fill="rgb(0, 0, 0)" stroke="color(0, 0, 0)" /></marker><line x1="524.0" y1="240.0" x2="552.0" y2="240.0"  stroke-width="2" stroke-dasharray="None" stroke="rgb(0, 0, 0)" marker-end="url(#b91c1a3f-0f20-11e9-b3b9-309c23045c1b)"/><line x1="576.0" y1="213.87564434701787" x2="704.0" y2="213.87564434701787" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="576.0" y1="213.87564434701787" x2="576.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="704.0" y1="213.87564434701787" x2="704.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="576.0" y1="241.87564434701787" x2="704.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="576.0" y1="213.87564434701787" x2="562.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="704.0" y1="213.87564434701787" x2="690.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="562.0" y1="238.12435565298216" x2="690.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="562.0" y1="238.12435565298216" x2="562.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="690.0" y1="238.12435565298216" x2="690.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="562.0" y1="266.12435565298216" x2="690.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="576.0" y1="241.87564434701787" x2="562.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="704.0" y1="241.87564434701787" x2="690.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
+<marker id="02fa85d6-4997-4490-91e2-4a39fd4a249f" viewBox="-5 -5 10 10" orient="auto"><polygon points="-5,-5 5,0 -5,5" fill="rgb(0, 0, 0)" stroke="color(0, 0, 0)" /></marker><line x1="524.0" y1="240.0" x2="552.0" y2="240.0" stroke-width="2" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  marker-end="url(#02fa85d6-4997-4490-91e2-4a39fd4a249f)"/>
+<line x1="576.0" y1="213.87564434701787" x2="704.0" y2="213.87564434701787" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="576.0" y1="213.87564434701787" x2="576.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="704.0" y1="213.87564434701787" x2="704.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="576.0" y1="241.87564434701787" x2="704.0" y2="241.87564434701787" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="576.0" y1="213.87564434701787" x2="562.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="704.0" y1="213.87564434701787" x2="690.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="562.0" y1="238.12435565298216" x2="690.0" y2="238.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="562.0" y1="238.12435565298216" x2="562.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="690.0" y1="238.12435565298216" x2="690.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="562.0" y1="266.12435565298216" x2="690.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="576.0" y1="241.87564434701787" x2="562.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="704.0" y1="241.87564434701787" x2="690.0" y2="266.12435565298216" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
 <text x="640.0" y="210.87564434701787" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">128x28x28</text>
-<line x1="570.0" y1="236.26794919243113" x2="698.0" y2="236.26794919243113" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="570.0" y1="236.26794919243113" x2="570.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="698.0" y1="236.26794919243113" x2="698.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="570.0" y1="240.26794919243113" x2="698.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="570.0" y1="236.26794919243113" x2="568.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="698.0" y1="236.26794919243113" x2="696.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="568.0" y1="239.7320508075689" x2="696.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="568.0" y1="239.7320508075689" x2="568.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="696.0" y1="239.7320508075689" x2="696.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="568.0" y1="243.7320508075689" x2="696.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="570.0" y1="240.26794919243113" x2="568.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="698.0" y1="240.26794919243113" x2="696.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="698.0" y1="236.26794919243113" x2="754.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="698.0" y1="240.26794919243113" x2="754.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="696.0" y1="239.7320508075689" x2="754.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="696.0" y1="243.7320508075689" x2="754.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
+<line x1="570.0" y1="236.26794919243113" x2="698.0" y2="236.26794919243113" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="570.0" y1="236.26794919243113" x2="570.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="698.0" y1="236.26794919243113" x2="698.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="570.0" y1="240.26794919243113" x2="698.0" y2="240.26794919243113" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="570.0" y1="236.26794919243113" x2="568.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="698.0" y1="236.26794919243113" x2="696.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="568.0" y1="239.7320508075689" x2="696.0" y2="239.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="568.0" y1="239.7320508075689" x2="568.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="696.0" y1="239.7320508075689" x2="696.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="568.0" y1="243.7320508075689" x2="696.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="570.0" y1="240.26794919243113" x2="568.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="698.0" y1="240.26794919243113" x2="696.0" y2="243.7320508075689" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="698.0" y1="236.26794919243113" x2="754.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="698.0" y1="240.26794919243113" x2="754.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="696.0" y1="239.7320508075689" x2="754.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="696.0" y1="243.7320508075689" x2="754.25" y2="212.94263164512563" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
 <text x="562.0" y="276.12435565298216" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">deconv2d</text>
 <text x="562.0" y="288.12435565298216" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">kernel:(4, 4)</text>
 <text x="562.0" y="300.12435565298216" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">stride:(2, 2)</text>
 <text x="562.0" y="312.12435565298216" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">pad:(0, 0)</text>
-<line x1="761.5" y1="185.88526329025126" x2="825.5" y2="185.88526329025126" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="761.5" y1="185.88526329025126" x2="761.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="825.5" y1="185.88526329025126" x2="825.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="761.5" y1="243.88526329025126" x2="825.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="761.5" y1="185.88526329025126" x2="732.5" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="825.5" y1="185.88526329025126" x2="796.5" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="732.5" y1="236.1147367097487" x2="796.5" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="732.5" y1="236.1147367097487" x2="732.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="796.5" y1="236.1147367097487" x2="796.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="732.5" y1="294.1147367097487" x2="796.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="761.5" y1="243.88526329025126" x2="732.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="825.5" y1="243.88526329025126" x2="796.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
+<line x1="761.5" y1="185.88526329025126" x2="825.5" y2="185.88526329025126" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="761.5" y1="185.88526329025126" x2="761.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="825.5" y1="185.88526329025126" x2="825.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="761.5" y1="243.88526329025126" x2="825.5" y2="243.88526329025126" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="761.5" y1="185.88526329025126" x2="732.5" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="825.5" y1="185.88526329025126" x2="796.5" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="732.5" y1="236.1147367097487" x2="796.5" y2="236.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="732.5" y1="236.1147367097487" x2="732.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="796.5" y1="236.1147367097487" x2="796.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="732.5" y1="294.1147367097487" x2="796.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="761.5" y1="243.88526329025126" x2="732.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="825.5" y1="243.88526329025126" x2="796.5" y2="294.1147367097487" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
 <text x="793.5" y="182.88526329025126" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">64x58x58</text>
-<line x1="748.5" y1="234.40192378864668" x2="812.5" y2="234.40192378864668" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="748.5" y1="234.40192378864668" x2="748.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="812.5" y1="234.40192378864668" x2="812.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="748.5" y1="240.40192378864668" x2="812.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="748.5" y1="234.40192378864668" x2="745.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="812.5" y1="234.40192378864668" x2="809.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="745.5" y1="239.59807621135332" x2="809.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="745.5" y1="239.59807621135332" x2="745.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="809.5" y1="239.59807621135332" x2="809.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="745.5" y1="245.59807621135332" x2="809.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="748.5" y1="240.40192378864668" x2="745.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="812.5" y1="240.40192378864668" x2="809.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"/>
-<line x1="812.5" y1="234.40192378864668" x2="876.0" y2="184.01923788646684" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="812.5" y1="240.40192378864668" x2="876.0" y2="184.01923788646684" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="809.5" y1="239.59807621135332" x2="876.0" y2="184.01923788646684" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
-<line x1="809.5" y1="245.59807621135332" x2="876.0" y2="184.01923788646684" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"/>
+<line x1="748.5" y1="234.40192378864668" x2="812.5" y2="234.40192378864668" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="748.5" y1="234.40192378864668" x2="748.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="812.5" y1="234.40192378864668" x2="812.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="748.5" y1="240.40192378864668" x2="812.5" y2="240.40192378864668" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="748.5" y1="234.40192378864668" x2="745.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="812.5" y1="234.40192378864668" x2="809.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="745.5" y1="239.59807621135332" x2="809.5" y2="239.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="745.5" y1="239.59807621135332" x2="745.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="809.5" y1="239.59807621135332" x2="809.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="745.5" y1="245.59807621135332" x2="809.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="748.5" y1="240.40192378864668" x2="745.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="812.5" y1="240.40192378864668" x2="809.5" y2="245.59807621135332" stroke-width="1" stroke-dasharray="None" stroke="rgb(255, 0, 0)"  />
+<line x1="812.5" y1="234.40192378864668" x2="876.0" y2="184.01923788646684" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="812.5" y1="240.40192378864668" x2="876.0" y2="184.01923788646684" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="809.5" y1="239.59807621135332" x2="876.0" y2="184.01923788646684" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
+<line x1="809.5" y1="245.59807621135332" x2="876.0" y2="184.01923788646684" stroke-width="1" stroke-dasharray="1" stroke="rgb(255, 0, 0)"  />
 <text x="732.5" y="304.1147367097487" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">deconv2d</text>
 <text x="732.5" y="316.1147367097487" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">kernel:(6, 6)</text>
 <text x="732.5" y="328.1147367097487" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">stride:(2, 2)</text>
 <text x="732.5" y="340.1147367097487" font-family="arial" font-size="12px" text-anchor="left" fill="rgb(0, 0, 0)">pad:(0, 0)</text>
-<line x1="891.0" y1="128.03847577293368" x2="894.0" y2="128.03847577293368" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="891.0" y1="128.03847577293368" x2="891.0" y2="248.03847577293368" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="894.0" y1="128.03847577293368" x2="894.0" y2="248.03847577293368" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="891.0" y1="248.03847577293368" x2="894.0" y2="248.03847577293368" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="891.0" y1="128.03847577293368" x2="831.0" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="894.0" y1="128.03847577293368" x2="834.0" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="831.0" y1="231.96152422706632" x2="834.0" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="831.0" y1="231.96152422706632" x2="831.0" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="834.0" y1="231.96152422706632" x2="834.0" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="831.0" y1="351.9615242270663" x2="834.0" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
-<line x1="891.0" y1="248.03847577293368" x2="831.0" y2="351.9615242270663" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"/>
-<line x1="894.0" y1="248.03847577293368" x2="834.0" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"/>
+<line x1="891.0" y1="128.03847577293368" x2="894.0" y2="128.03847577293368" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="891.0" y1="128.03847577293368" x2="891.0" y2="248.03847577293368" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="894.0" y1="128.03847577293368" x2="894.0" y2="248.03847577293368" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="891.0" y1="248.03847577293368" x2="894.0" y2="248.03847577293368" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="891.0" y1="128.03847577293368" x2="831.0" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="894.0" y1="128.03847577293368" x2="834.0" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="831.0" y1="231.96152422706632" x2="834.0" y2="231.96152422706632" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="831.0" y1="231.96152422706632" x2="831.0" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="834.0" y1="231.96152422706632" x2="834.0" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="831.0" y1="351.9615242270663" x2="834.0" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
+<line x1="891.0" y1="248.03847577293368" x2="831.0" y2="351.9615242270663" stroke-width="1" stroke-dasharray="1" stroke="rgb(0, 0, 0)"  />
+<line x1="894.0" y1="248.03847577293368" x2="834.0" y2="351.9615242270663" stroke-width="1" stroke-dasharray="None" stroke="rgb(0, 0, 0)"  />
 <text x="892.5" y="125.03847577293368" font-family="arial" font-size="10px" text-anchor="middle" fill="rgb(0, 0, 0)">3x120x120</text>
 </svg>
