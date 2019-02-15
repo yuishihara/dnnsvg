@@ -39,7 +39,7 @@ class Deconvolution2D(Layer):
             input_tensor.decorate(connector)
 
         # Add layer title
-        layer_titles = self._layer_titles(input_tensor)
+        layer_titles = self._layer_titles(input_tensor, output_tensor)
         for title in layer_titles:
             input_tensor.decorate(title)
 
@@ -103,22 +103,23 @@ class Deconvolution2D(Layer):
                      color=kernel_color, dashed=True),
                 Line(kernel_vertices[3], destination_point, color=kernel_color, dashed=True)]
 
-    def _layer_titles(self, input_tensor):
+    def _layer_titles(self, input_tensor, output_tensor):
         text_size = 12
         title = 'deconv2d'
-        kernel_text = 'kernel:{}'.format(self.k_size)
-        stride_text = 'stride:{}'.format(self.stride)
-        pad_text = 'pad:{}'.format(self.pad)
+        kernel_text = 'k:{}'.format(self.k_size)
+        stride_text = 's:{}'.format(self.stride)
+        pad_text = 'p:{}'.format(self.pad)
         texts = [title, kernel_text, stride_text, pad_text]
 
-        input_vertices = self._left_vertices(input_tensor)
-        base_text_point = (input_vertices[3][0], input_vertices[3][1] + 10)
+        input_vertices = self._right_vertices(input_tensor)
+        output_vertices = self._left_vertices(output_tensor)
+        base_text_point = ((input_vertices[3][0] + output_vertices[3][0]) / 2.0, output_vertices[3][1] + 10)
         titles = []
         for i, text in enumerate(texts):
             text_point = (base_text_point[0],
                           base_text_point[1] + i * text_size)
             titles.append(
-                Text(text_point, text, size=text_size, anchor='left'))
+                Text(text_point, text, size=text_size, anchor='middle'))
         return titles
 
 
