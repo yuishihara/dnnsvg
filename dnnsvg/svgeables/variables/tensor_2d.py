@@ -5,12 +5,12 @@ from dnnsvg.svgeables import svg_snippets
 
 
 class Tensor2D(Variable):
-    def __init__(self, x, y, height, width, color=(0, 0, 0), print_shape=True, draw_height=100):
+    def __init__(self, x, y, height, width, color=(0, 0, 0), print_shape=True, draw_height=100, draw_width=5):
         super(Tensor2D, self).__init__(x, y, color)
         self._height = height
         self._width = width
         self._draw_height = draw_height
-        self._draw_width = 5
+        self._draw_width = draw_width
         self._decorators = []
         self._title = self._default_title() if print_shape else None
 
