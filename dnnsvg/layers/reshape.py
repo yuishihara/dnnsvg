@@ -7,12 +7,13 @@ import dnnsvg.svgeables
 
 
 class Reshape(Layer):
-    def __init__(self, output_shape):
+    def __init__(self, output_shape, output_scale=None):
         super(Reshape, self).__init__()
         if not len(output_shape) == 2 and not len(output_shape) == 3:
             raise ValueError(
                 "Shape must be 2D or 3D! Given: {}".format(output_shape))
         self._output_shape = output_shape
+        self._output_scale = output_scale
 
     def decorate(self, input_tensor):
         input_shape = input_tensor.shape()
@@ -53,12 +54,13 @@ class Reshape(Layer):
         elif len(self._output_shape) == 3:
             out_depth, out_height, out_width = self._output_shape
             out_point = (point[0] + width + margin, point[1])
+            scale = self._output_scale if self._output_scale else input_tensor.scale()
             return Tensor3D(x=out_point[0],
                             y=out_point[1],
                             depth=out_depth,
                             height=out_height,
                             width=out_width,
-                            scale=input_tensor.scale())
+                            scale=scale)
         else:
             raise ValueError(
                 "Shape must be 2D or 3D! Given: {}".format(self._output_shape))
