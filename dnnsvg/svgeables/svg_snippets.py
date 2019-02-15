@@ -53,7 +53,7 @@ def arrow(point1, point2, stroke_width=1, dashed=False, color=(0, 0, 0), arrow_o
 def rectangle(point, height, width, stroke_width=1, dashed=False, color=(0, 0, 0), fill=None):
     x, y = point
     dash_array = 5 if dashed else None
-    fill_color = 'transparent' if fill is None else 'rgb{}'.format(fill)
+    fill_color = 'none' if fill is None else 'rgb{}'.format(color)
     return '<rect x="{}" y="{}" width="{}" height="{}" stroke-width="{}" stroke-dasharray="{}" stroke="rgb{}" fill="{}"/>'.format(x, y, width, height, stroke_width, dash_array, color, fill_color)
 
 
@@ -81,7 +81,7 @@ def arc(start_point, end_point, radius, stroke_width=1, dashed=False, color=(0, 
     sweep_flag = 1 if sweep else 0
     large_arc_flag = 1 if large_arc else 0
     dash_array = 5 if dashed else None
-    fill_color = 'transparent' if fill is None else 'rgb{}'.format(fill)
+    fill_color = 'transparent' if fill is None else 'rgb{}'.format(color)
     start_marker = 'marker-start="url(#{})"'.format(
         start_marker_id) if start_marker_id else ''
     end_marker = 'marker-end="url(#{})"'.format(
