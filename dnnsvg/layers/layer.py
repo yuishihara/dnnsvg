@@ -27,3 +27,7 @@ class Layer(TensorDecorator):
             return [vertices[1], vertices[3], vertices[5], vertices[7]]
         elif isinstance(tensor, Tensor2D):
             return [vertices[1], vertices[3]]
+
+    @classmethod
+    def _text_size(self):
+        return 14

@@ -59,7 +59,7 @@ class Tensor3D(Variable):
         text = '{}x{}x{}'.format(int(self._depth),
                                  int(self._height),
                                  int(self._width))
-        text_size = 10
+        text_size = 14
         margin = 3
         top_left_vertex = self.vertices()[0]
         top_right_vertex = self.vertices()[1]

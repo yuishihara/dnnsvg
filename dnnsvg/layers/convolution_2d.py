@@ -104,7 +104,7 @@ class Convolution2D(Layer):
                 Line(kernel_vertices[3], destination_point, color=kernel_color, dashed=True)]
 
     def _layer_titles(self, input_tensor, output_tensor):
-        text_size = 12
+        text_size = 14
         title = 'conv2d'
         kernel_text = 'k:{}'.format(self.k_size)
         stride_text = 's:{}'.format(self.stride)

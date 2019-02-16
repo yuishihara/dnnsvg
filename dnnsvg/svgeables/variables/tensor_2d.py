@@ -43,7 +43,7 @@ class Tensor2D(Variable):
 
     def _default_title(self):
         text = '{}'.format(int(self._width))
-        text_size = 10
+        text_size = 14
         margin = 3
         top_left_vertex = self.vertices()[0]
         top_right_vertex = self.vertices()[1]

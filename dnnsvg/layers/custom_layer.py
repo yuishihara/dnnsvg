@@ -102,7 +102,7 @@ class CustomLayer(Layer):
         return [arrow]
 
     def _layer_titles(self, input_tensor):
-        text_size = 12
+        text_size = self._text_size()
         title = self._layer_name
         texts = [title]
 
