@@ -105,7 +105,7 @@ class Convolution2D(Layer):
 
     def _layer_titles(self, input_tensor, output_tensor):
         text_size = 14
-        title = 'conv2d'
+        title = 'conv'
         kernel_text = 'k:{}'.format(self.k_size)
         stride_text = 's:{}'.format(self.stride)
         pad_text = 'p:{}'.format(self.pad)
