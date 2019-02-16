@@ -1,0 +1,1 @@
+from dnnsvg.svgeables.captions.caption import Caption
